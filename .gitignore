@@ -6,8 +6,7 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-ARCHITECTURE_AND_FEATURES.md
-readme.md
+
 
 node_modules
 dist
