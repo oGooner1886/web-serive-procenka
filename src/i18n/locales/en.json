@@ -1,0 +1,47 @@
+{
+  "header": {
+    "title": "PRICE CHECK",
+    "subtitle": "Wholesale Auto Parts Search",
+    "phone": "+7 800 777 85 48",
+    "phoneNote": "Toll-free in Russia"
+  },
+  "search": {
+    "stage": "Stage 1: Search by part number (article)",
+    "placeholder": "Enter part number (OP570, W712, 01089)...",
+    "clear": "Clear",
+    "searching": "Searching...",
+    "requestSent": "Request sent",
+    "submit": "Find Brands",
+    "hintAuto": "Search starts 500ms after typing or on Enter.",
+    "hintExact": "* Exact catalog part number search"
+  },
+  "brands": {
+    "loading": "Looking for manufacturers for part «{{query}}»...",
+    "errorTitle": "Brand Search Error",
+    "notFound": "No parts found for «{{query}}». Please check the part number.",
+    "selectTitle": "Select a manufacturer ({{count}}):"
+  },
+  "offers": {
+    "loading": "Loading offers and cross-references for «{{brand}}»...",
+    "loadingSub": "Polling warehouses and calculating current stock",
+    "errorTitle": "Offers Loading Error",
+    "notFound": "No offers or analogues found in warehouses for «{{brand}}».",
+    "title": "Offers for Brand",
+    "shownCount": "Showing: {{filtered}} of {{total}}",
+    "filterPlaceholder": "Filter by part name (filter, lever, brake)...",
+    "onlyInStock": "In stock only",
+    "resetFilter": "Reset",
+    "noFilteredMatches": "No offers match the selected filters.",
+    "showAll": "Reset filters (show all {{total}})",
+    "thType": "Type",
+    "thBrandNumber": "Brand / Part No.",
+    "thName": "Part Description",
+    "thWarehouse": "Warehouse",
+    "thStock": "Stock",
+    "thPrice": "Price",
+    "badgeAnalogue": "Cross",
+    "badgeDirect": "Direct",
+    "pcs": "pcs"
+  }
+}
+

@@ -1,0 +1,178 @@
+:root {
+  --app-font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --app-font-mono: "SF Mono", Menlo, Monaco, Consolas, monospace;
+  --bg-canvas: #f8fafc;
+}
+
+body {
+  font-family: var(--app-font);
+  background-color: var(--bg-canvas) !important;
+  color: #0f172a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.011em;
+}
+
+.font-monospace {
+  font-family: var(--app-font-mono) !important;
+  letter-spacing: -0.02em;
+}
+
+.card {
+  border-radius: 14px !important;
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05),
+              0 2px 6px -1px rgba(15, 23, 42, 0.03) !important;
+}
+
+.form-control:focus {
+  border-color: #3b82f6 !important;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15) !important;
+}
+
+.btn {
+  border-radius: 10px !important;
+  font-weight: 500;
+  transition: all 0.15s ease-in-out;
+}
+
+.btn:active {
+  transform: scale(0.985);
+}
+
+.badge {
+  border-radius: 6px !important;
+  font-weight: 500;
+}
+
+@media (max-width: 767.98px) {
+  .site-header {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+
+  .header-logo-box {
+    width: 64px !important;
+    height: 28px !important;
+    border-radius: 6px !important;
+    padding: 3px !important;
+  }
+
+  .header-title {
+    font-size: 0.95rem !important;
+    line-height: 1.1;
+  }
+
+  .header-subtitle {
+    font-size: 0.65rem !important;
+  }
+
+  .header-phone {
+    font-size: 0.8rem !important;
+    letter-spacing: 0;
+  }
+
+  .header-phone-sub {
+    font-size: 0.62rem !important;
+  }
+
+  .form-control-lg {
+    font-size: 0.95rem !important;
+    padding: 0.65rem 0.9rem !important;
+    border-radius: 10px !important;
+  }
+
+  .btn-lg {
+    font-size: 0.95rem !important;
+    padding: 0.65rem 1rem !important;
+    border-radius: 10px !important;
+  }
+
+  .brand-list-container {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(135px, 1fr)) !important;
+    gap: 8px !important;
+  }
+
+  .brand-btn {
+    width: 100% !important;
+    padding: 8px 10px !important;
+  }
+
+  .brand-btn-subtitle {
+    max-width: 120px;
+    font-size: 0.72rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .header-logo-box {
+    width: 105px !important;
+    height: 42px !important;
+  }
+
+  .header-title {
+    font-size: 1.15rem !important;
+  }
+
+  .header-subtitle {
+    font-size: 0.72rem !important;
+  }
+
+  .header-phone {
+    font-size: 0.95rem !important;
+  }
+
+  .header-phone-sub {
+    font-size: 0.7rem !important;
+  }
+
+  .form-control-lg {
+    font-size: 1rem !important;
+    padding: 0.7rem 1rem !important;
+  }
+
+  .brand-btn {
+    min-width: 160px;
+  }
+
+  .brand-btn-subtitle {
+    max-width: 190px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header-logo-box {
+    width: 130px !important;
+    height: 52px !important;
+  }
+
+  .header-title {
+    font-size: 1.25rem !important;
+  }
+
+  .header-subtitle {
+    font-size: 0.75rem !important;
+  }
+
+  .header-phone {
+    font-size: 1.05rem !important;
+  }
+
+  .header-phone-sub {
+    font-size: 0.75rem !important;
+  }
+
+  .form-control-lg {
+    font-size: 1.05rem !important;
+    padding: 0.75rem 1.1rem !important;
+  }
+
+  .brand-btn {
+    min-width: 175px;
+  }
+
+  .brand-btn-subtitle {
+    max-width: 220px;
+  }
+}
