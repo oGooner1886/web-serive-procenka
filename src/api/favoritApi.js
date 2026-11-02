@@ -1,7 +1,12 @@
 import axios from 'axios';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
-const API_KEY = import.meta.env.VITE_API_KEY;
+const RAW_URL = import.meta.env.VITE_API_BASE_URL;
+const API_BASE_URL =
+  import.meta.env.PROD && (!RAW_URL || RAW_URL.startsWith('/'))
+    ? 'https://api.favorit-parts.ru/hs/hsprice/'
+    : RAW_URL || 'https://api.favorit-parts.ru/hs/hsprice/';
+
+const API_KEY = import.meta.env.VITE_API_KEY || '00000000-0000-0000-0000-000000000001';
 const API_TIMEOUT = Number(import.meta.env.VITE_API_TIMEOUT) || 10000;
 
 export const favoritApi = axios.create({

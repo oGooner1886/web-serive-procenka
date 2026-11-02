@@ -2,6 +2,8 @@
 
 > Одностраничное веб-приложение (SPA) для получения цен автозапчастей и подбора аналогов через API дистрибьютора «Фаворит-Моторс».
 
+🌐 **Live Demo (GitHub Pages)**: [https://ogooner1886.github.io/web-serive-procenka/](https://ogooner1886.github.io/web-serive-procenka/)
+
 ---
 
 ## Стек технологий
@@ -53,6 +55,15 @@ npm run dev
 ```bash
 npm run build
 npm run preview
+```
+
+### 5. Деплой на GitHub Pages
+```bash
+# Ручной деплой через gh-pages
+npm run deploy
+
+# Либо через автоматический GitHub Actions CI/CD (пуш в ветку master/main)
+git push origin master
 ```
 
 ---
